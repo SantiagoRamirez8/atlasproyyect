@@ -219,20 +219,25 @@ article{
         font-size: 1.5rem;
         padding: 1rem;
     }
-    .dates {
+    .contact-bkn{
+        color: white;
+        background-size: cover;
+        background-image: url(./assets/contact-bk.jpg);
         display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        width: 28%;
-        color: aliceblue;
-        margin: 3rem;
+        justify-content: space-around;
+        padding: 3rem;
     }
-    .form form {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        width: 28%;
-        color:#04ff4f;
-        margin: 3rem;
-        border-radius: 2rem;
+    
+    input, textarea{
+        background: transparent;
+        border: 2px solid #28d199;
+        border-radius: 3px;
+        margin: 1rem;
+    }
+    
+    .contact-questions button{
+        padding: .5rem;
+        background: #28d199;
+        border-radius: 1.5rem;
+        width: 100%;
     }
